@@ -9,5 +9,5 @@
 1. 创建接口文件夹
 2. cd path/of/接口目录
 3. python -m SimpleHTTPServer \<port\>
-4. 访问接口：http://localhost:\<port\>/JieKouWenJian.html
+4. 访问接口：http://localhost:\<port\>/JieKouWenJian.html　　(note:文件一定使用html结尾，否则会提示下载)
 * 例如：http://localhost:8000/login.html?username='hello'&passwd='world'
