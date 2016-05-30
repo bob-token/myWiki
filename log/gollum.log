@@ -1,0 +1,993 @@
+[2016-05-30 10:43:11] INFO  WEBrick 1.3.1
+[2016-05-30 10:43:11] INFO  ruby 2.0.0 (2015-12-16) [universal.x86_64-darwin15]
+== Sinatra (v1.4.7) has taken the stage on 4567 for development with backup from WEBrick
+[2016-05-30 10:43:11] INFO  WEBrick::HTTPServer#start: pid=59278 port=4567
+localhost - - [30/May/2016:10:43:26 CST] "GET /androkd/windows-http-configure HTTP/1.1" 200 3665
+- -> /androkd/windows-http-configure
+localhost - - [30/May/2016:10:43:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/androkd/windows-http-configure -> /favicon.ico
+localhost - - [30/May/2016:10:43:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/androkd/windows-http-configure -> /create/favicon.ico
+== Sinatra has ended his set (crowd applauds)
+[2016-05-30 10:43:57] INFO  going to shutdown ...
+[2016-05-30 10:43:57] INFO  WEBrick::HTTPServer#start done.
+[2016-05-30 10:44:50] INFO  WEBrick 1.3.1
+[2016-05-30 10:44:50] INFO  ruby 2.0.0 (2015-12-16) [universal.x86_64-darwin15]
+== Sinatra (v1.4.7) has taken the stage on 4567 for development with backup from WEBrick
+[2016-05-30 10:44:50] INFO  WEBrick::HTTPServer#start: pid=59305 port=4567
+localhost - - [30/May/2016:10:44:56 CST] "GET /pages HTTP/1.1" 200 2547
+http://localhost:4567/androkd/windows-http-configure -> /pages
+localhost - - [30/May/2016:10:44:57 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/pages -> /favicon.ico
+localhost - - [30/May/2016:10:44:57 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/pages -> /create/favicon.ico
+localhost - - [30/May/2016:10:45:15 CST] "GET /search?q=log HTTP/1.1" 200 2278
+http://localhost:4567/pages -> /search?q=log
+localhost - - [30/May/2016:10:45:16 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/search?q=log -> /favicon.ico
+localhost - - [30/May/2016:10:45:16 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/search?q=log -> /create/favicon.ico
+localhost - - [30/May/2016:10:45:19 CST] "GET /search?q=Search%E2%80%A6 HTTP/1.1" 200 2296
+http://localhost:4567/search?q=log -> /search?q=Search%E2%80%A6
+localhost - - [30/May/2016:10:45:19 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/search?q=Search%E2%80%A6 -> /favicon.ico
+localhost - - [30/May/2016:10:45:19 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/search?q=Search%E2%80%A6 -> /create/favicon.ico
+localhost - - [30/May/2016:10:45:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/search?q=log -> /favicon.ico
+localhost - - [30/May/2016:10:45:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/search?q=log -> /create/favicon.ico
+localhost - - [30/May/2016:10:45:30 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/pages -> /favicon.ico
+localhost - - [30/May/2016:10:45:30 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/pages -> /create/favicon.ico
+localhost - - [30/May/2016:10:47:03 CST] "GET /pages HTTP/1.1" 200 2547
+- -> /pages
+localhost - - [30/May/2016:10:47:03 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/pages -> /favicon.ico
+localhost - - [30/May/2016:10:47:03 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:48:48 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:48:48 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:38 CST] "GET / HTTP/1.1" 302 0
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /
+192.168.1.73 - - [30/May/2016:10:57:38 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /Home
+192.168.1.73 - - [30/May/2016:10:57:39 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:39 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:45 CST] "GET /pages HTTP/1.1" 200 2547
+http://192.168.1.73:4567/Home -> /pages
+192.168.1.73 - - [30/May/2016:10:57:46 CST] "GET /images/fileview/document.png HTTP/1.1" 200 177
+http://192.168.1.73:4567/css/gollum.css -> /images/fileview/document.png
+192.168.1.73 - - [30/May/2016:10:57:46 CST] "GET /images/fileview/folder-horizontal.png HTTP/1.1" 200 271
+http://192.168.1.73:4567/css/gollum.css -> /images/fileview/folder-horizontal.png
+192.168.1.73 - - [30/May/2016:10:57:46 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:46 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:47 CST] "GET /pages/androkd/ HTTP/1.1" 200 2508
+http://192.168.1.73:4567/pages -> /pages/androkd/
+192.168.1.73 - - [30/May/2016:10:57:48 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages/androkd/ -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:48 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages/androkd/ -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:50 CST] "GET /androkd/windows-http-configure HTTP/1.1" 200 3665
+http://192.168.1.73:4567/pages/androkd/ -> /androkd/windows-http-configure
+192.168.1.73 - - [30/May/2016:10:57:51 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/androkd/windows-http-configure -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:51 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/androkd/windows-http-configure -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:54 CST] "GET /delete/androkd/windows%20http%20configure HTTP/1.1" 302 0
+http://192.168.1.73:4567/androkd/windows-http-configure -> /delete/androkd/windows%20http%20configure
+192.168.1.73 - - [30/May/2016:10:57:54 CST] "GET / HTTP/1.1" 302 0
+http://192.168.1.73:4567/androkd/windows-http-configure -> /
+192.168.1.73 - - [30/May/2016:10:57:54 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/androkd/windows-http-configure -> /Home
+192.168.1.73 - - [30/May/2016:10:57:54 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:54 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:56 CST] "GET /pages HTTP/1.1" 200 2485
+http://192.168.1.73:4567/Home -> /pages
+192.168.1.73 - - [30/May/2016:10:57:56 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:56 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:58 CST] "GET /pages/ios/ HTTP/1.1" 200 2506
+http://192.168.1.73:4567/pages -> /pages/ios/
+192.168.1.73 - - [30/May/2016:10:57:58 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages/ios/ -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:58 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages/ios/ -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:59 CST] "GET /ios/mac-http-server-configure HTTP/1.1" 200 3715
+http://192.168.1.73:4567/pages/ios/ -> /ios/mac-http-server-configure
+192.168.1.73 - - [30/May/2016:10:57:59 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:57:59 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:02 CST] "GET /delete/ios/mac%20http%20server%20configure HTTP/1.1" 302 0
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /delete/ios/mac%20http%20server%20configure
+192.168.1.73 - - [30/May/2016:10:58:02 CST] "GET / HTTP/1.1" 302 0
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /
+192.168.1.73 - - [30/May/2016:10:58:02 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/ios/mac-http-server-configure -> /Home
+192.168.1.73 - - [30/May/2016:10:58:03 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:03 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:05 CST] "GET /pages HTTP/1.1" 200 2432
+http://192.168.1.73:4567/Home -> /pages
+192.168.1.73 - - [30/May/2016:10:58:05 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:05 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:10 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/pages -> /Home
+192.168.1.73 - - [30/May/2016:10:58:10 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:10 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:31 CST] "GET /simple%20http%20server%20configure HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /simple%20http%20server%20configure
+192.168.1.73 - - [30/May/2016:10:58:31 CST] "GET /create/simple%20http%20server%20configure HTTP/1.1" 200 6672
+http://192.168.1.73:4567/Home -> /create/simple%20http%20server%20configure
+192.168.1.73 - - [30/May/2016:10:58:32 CST] "GET /javascript/editor/langs/markdown.js?_=1464577112329 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple%20http%20server%20configure -> /javascript/editor/langs/markdown.js?_=1464577112329
+192.168.1.73 - - [30/May/2016:10:58:32 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple%20http%20server%20configure -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:32 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple%20http%20server%20configure -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:39 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:39 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:42 CST] "GET /pages HTTP/1.1" 200 2432
+http://192.168.1.73:4567/Home -> /pages
+192.168.1.73 - - [30/May/2016:10:58:42 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:58:42 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:10:59:04 CST] "GET /simple_http_server_configure(python) HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /simple_http_server_configure(python)
+192.168.1.73 - - [30/May/2016:10:59:04 CST] "GET /create/simple_http_server_configure(python) HTTP/1.1" 200 6693
+http://192.168.1.73:4567/pages -> /create/simple_http_server_configure(python)
+192.168.1.73 - - [30/May/2016:10:59:04 CST] "GET /javascript/editor/langs/markdown.js?_=1464577144455 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /javascript/editor/langs/markdown.js?_=1464577144455
+192.168.1.73 - - [30/May/2016:10:59:04 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /favicon.ico
+192.168.1.73 - - [30/May/2016:10:59:04 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:02:24 CST] "POST /create HTTP/1.1" 303 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create
+192.168.1.73 - - [30/May/2016:11:02:24 CST] "GET /simple-http-server-configure-python HTTP/1.1" 200 3865
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /simple-http-server-configure-python
+192.168.1.73 - - [30/May/2016:11:02:25 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:02:25 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:26 CST] "GET /edit/simple-http-server-configure-python HTTP/1.1" 200 6473
+http://192.168.1.73:4567/simple-http-server-configure-python -> /edit/simple-http-server-configure-python
+192.168.1.73 - - [30/May/2016:11:03:26 CST] "GET /javascript/editor/langs/markdown.js?_=1464577406849 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/simple-http-server-configure-python -> /javascript/editor/langs/markdown.js?_=1464577406849
+192.168.1.73 - - [30/May/2016:11:03:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:33 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:33 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:44 CST] "POST /rename/simple-http-server-configure-python HTTP/1.1" 200 0
+http://192.168.1.73:4567/simple-http-server-configure-python -> /rename/simple-http-server-configure-python
+192.168.1.73 - - [30/May/2016:11:03:44 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/rename/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:44 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/rename/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:49 CST] "GET /rename/simple-http-server-configure-python HTTP/1.1" 302 0
+- -> /rename/simple-http-server-configure-python
+192.168.1.73 - - [30/May/2016:11:03:49 CST] "GET /create/rename/simple-http-server-configure-python HTTP/1.1" 200 6705
+- -> /create/rename/simple-http-server-configure-python
+192.168.1.73 - - [30/May/2016:11:03:49 CST] "GET /javascript/editor/langs/markdown.js?_=1464577429834 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/rename/simple-http-server-configure-python -> /javascript/editor/langs/markdown.js?_=1464577429834
+192.168.1.73 - - [30/May/2016:11:03:49 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/rename/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:50 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/rename/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:54 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:54 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:56 CST] "GET /simple-http-server-configure-python HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /simple-http-server-configure-python
+192.168.1.73 - - [30/May/2016:11:03:56 CST] "GET /create/simple-http-server-configure-python HTTP/1.1" 200 6693
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/simple-http-server-configure-python
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /css/gollum.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/gollum.css
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /css/template.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/template.css
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /javascript/jquery-1.7.2.min.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/jquery-1.7.2.min.js
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /css/editor.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/editor.css
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /css/dialog.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/dialog.css
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /javascript/gollum.dialog.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/gollum.dialog.js
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /javascript/gollum.placeholder.js HTTP/1.1" 304 0
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /javascript/editor/gollum.editor.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/gollum.placeholder.js
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /javascript/mousetrap.min.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/mousetrap.min.js
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/editor/gollum.editor.js
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /javascript/gollum.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/gollum.js
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /css/print.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/print.css
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /javascript/editor/langs/markdown.js?_=1464577437198 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/editor/langs/markdown.js?_=1464577437198
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:57 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /create/simple-http-server-configure-python HTTP/1.1" 200 6693
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/simple-http-server-configure-python
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /css/gollum.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/gollum.css
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /css/editor.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/editor.css
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /css/dialog.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/dialog.css
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /css/template.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/template.css
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /javascript/jquery-1.7.2.min.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/jquery-1.7.2.min.js
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /javascript/mousetrap.min.js HTTP/1.1" 304 0
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /javascript/gollum.placeholder.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/mousetrap.min.js
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /javascript/gollum.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/gollum.placeholder.js
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/gollum.js
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /javascript/gollum.dialog.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/gollum.dialog.js
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /javascript/editor/gollum.editor.js HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/editor/gollum.editor.js
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /css/print.css HTTP/1.1" 304 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /css/print.css
+192.168.1.73 - - [30/May/2016:11:03:59 CST] "GET /javascript/editor/langs/markdown.js?_=1464577439966 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/editor/langs/markdown.js?_=1464577439966
+192.168.1.73 - - [30/May/2016:11:04:00 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:00 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:08 CST] "GET /javascript/editor/langs/markdown.js?_=1464577448656 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /javascript/editor/langs/markdown.js?_=1464577448656
+192.168.1.73 - - [30/May/2016:11:04:08 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:08 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:11 CST] "GET /create/simple_http_server_configure(python) HTTP/1.1" 200 6693
+- -> /create/simple_http_server_configure(python)
+192.168.1.73 - - [30/May/2016:11:04:11 CST] "GET /javascript/editor/langs/markdown.js?_=1464577451747 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /javascript/editor/langs/markdown.js?_=1464577451747
+192.168.1.73 - - [30/May/2016:11:04:11 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:11 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:18 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:18 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:20 CST] "GET /javascript/editor/langs/markdown.js?_=1464577460424 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /javascript/editor/langs/markdown.js?_=1464577460424
+192.168.1.73 - - [30/May/2016:11:04:20 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:20 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:21 CST] "GET /javascript/editor/langs/markdown.js?_=1464577461593 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/editor/langs/markdown.js?_=1464577461593
+192.168.1.73 - - [30/May/2016:11:04:21 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:21 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:22 CST] "GET /javascript/editor/langs/markdown.js?_=1464577462480 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/rename/simple-http-server-configure-python -> /javascript/editor/langs/markdown.js?_=1464577462480
+192.168.1.73 - - [30/May/2016:11:04:22 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/rename/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:22 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/rename/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:24 CST] "GET /javascript/editor/langs/markdown.js?_=1464577464841 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /javascript/editor/langs/markdown.js?_=1464577464841
+192.168.1.73 - - [30/May/2016:11:04:24 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:24 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple-http-server-configure-python -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:25 CST] "GET /javascript/editor/langs/markdown.js?_=1464577465728 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /javascript/editor/langs/markdown.js?_=1464577465728
+192.168.1.73 - - [30/May/2016:11:04:25 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:25 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:28 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:28 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:30 CST] "GET /javascript/editor/langs/markdown.js?_=1464577470487 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /javascript/editor/langs/markdown.js?_=1464577470487
+192.168.1.73 - - [30/May/2016:11:04:30 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:30 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:33 CST] "GET /create/simple_http_server_configure(python) HTTP/1.1" 200 6693
+- -> /create/simple_http_server_configure(python)
+192.168.1.73 - - [30/May/2016:11:04:33 CST] "GET /javascript/editor/langs/markdown.js?_=1464577473905 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /javascript/editor/langs/markdown.js?_=1464577473905
+192.168.1.73 - - [30/May/2016:11:04:33 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:04:34 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/simple_http_server_configure(python) -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:29 CST] "GET / HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /
+192.168.1.73 - - [30/May/2016:11:05:29 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/pages -> /Home
+192.168.1.73 - - [30/May/2016:11:05:30 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:30 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:31 CST] "GET /pages HTTP/1.1" 200 2432
+http://192.168.1.73:4567/Home -> /pages
+192.168.1.73 - - [30/May/2016:11:05:32 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:32 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:44 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/pages -> /Home
+192.168.1.73 - - [30/May/2016:11:05:44 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:44 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:46 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:05:46 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:06:35 CST] "GET /Simple%20Http%20Server%20 HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /Simple%20Http%20Server%20
+192.168.1.73 - - [30/May/2016:11:06:35 CST] "GET /create/Simple%20Http%20Server%20 HTTP/1.1" 200 6642
+http://192.168.1.73:4567/pages -> /create/Simple%20Http%20Server%20
+192.168.1.73 - - [30/May/2016:11:06:35 CST] "GET /javascript/editor/langs/markdown.js?_=1464577595483 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/create/Simple%20Http%20Server%20 -> /javascript/editor/langs/markdown.js?_=1464577595483
+192.168.1.73 - - [30/May/2016:11:06:35 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/create/Simple%20Http%20Server%20 -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:06:35 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/create/Simple%20Http%20Server%20 -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:07:17 CST] "POST /create HTTP/1.1" 303 0
+http://192.168.1.73:4567/create/Simple%20Http%20Server%20 -> /create
+192.168.1.73 - - [30/May/2016:11:07:17 CST] "GET /Simple-Http-Server HTTP/1.1" 200 3746
+http://192.168.1.73:4567/create/Simple%20Http%20Server%20 -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:07:18 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:07:18 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:07:23 CST] "GET /pages HTTP/1.1" 200 2507
+http://192.168.1.73:4567/Simple-Http-Server -> /pages
+192.168.1.73 - - [30/May/2016:11:07:23 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:07:23 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:07:27 CST] "GET /Simple-Http-Server HTTP/1.1" 200 3746
+http://192.168.1.73:4567/pages -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:07:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:07:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:07:32 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6320
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:07:32 CST] "GET /javascript/editor/langs/markdown.js?_=1464577652495 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464577652495
+192.168.1.73 - - [30/May/2016:11:07:32 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:07:32 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:11:00 CST] "POST /preview HTTP/1.1" 200 3443
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:11:00 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:11:00 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:12:11 CST] "POST /preview HTTP/1.1" 200 3440
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:12:11 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:12:11 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:12:53 CST] "POST /preview HTTP/1.1" 200 3439
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:12:54 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:12:54 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:13:15 CST] "POST /preview HTTP/1.1" 200 3465
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:13:15 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:13:15 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:13:43 CST] "POST /preview HTTP/1.1" 200 3476
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:13:44 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:13:44 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:13:56 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:13:56 CST] "GET /Simple-Http-Server HTTP/1.1" 200 3935
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:13:56 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:13:56 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:14:12 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6440
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:14:12 CST] "GET /javascript/editor/langs/markdown.js?_=1464578052521 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464578052521
+192.168.1.73 - - [30/May/2016:11:14:12 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:14:12 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:14:27 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:14:27 CST] "GET /Simple-Http-Server HTTP/1.1" 200 3966
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:14:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:14:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:14:35 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6445
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:14:35 CST] "GET /javascript/editor/langs/markdown.js?_=1464578075725 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464578075725
+192.168.1.73 - - [30/May/2016:11:14:35 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:14:35 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:14:52 CST] "POST /preview HTTP/1.1" 200 3505
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:14:53 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:14:53 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:15:09 CST] "POST /preview HTTP/1.1" 200 3505
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:15:10 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:15:10 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:15:23 CST] "POST /preview HTTP/1.1" 200 3492
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:15:23 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:15:23 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:15:41 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:15:41 CST] "GET /Simple-Http-Server HTTP/1.1" 200 3940
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:15:41 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:15:41 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:15:56 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6441
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:15:56 CST] "GET /javascript/editor/langs/markdown.js?_=1464578156904 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464578156904
+192.168.1.73 - - [30/May/2016:11:15:57 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:15:57 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:16:37 CST] "POST /preview HTTP/1.1" 200 3511
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:16:38 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:16:38 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:18:23 CST] "POST /preview HTTP/1.1" 200 3643
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:18:24 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:18:24 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:19:48 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:19:48 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4168
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:19:48 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:19:48 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:19:57 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6609
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:19:57 CST] "GET /javascript/editor/langs/markdown.js?_=1464578397578 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464578397578
+192.168.1.73 - - [30/May/2016:11:19:57 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:19:57 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:20:04 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:20:04 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4205
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:20:05 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:20:05 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:20:34 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4205
+- -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:20:35 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:20:35 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:33:31 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6611
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:33:31 CST] "GET /javascript/editor/langs/markdown.js?_=1464579211661 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464579211661
+192.168.1.73 - - [30/May/2016:11:33:31 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:33:32 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:34:19 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:34:19 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4089
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:34:20 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:34:20 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:34:33 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6635
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:34:33 CST] "GET /javascript/editor/langs/markdown.js?_=1464579273255 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464579273255
+192.168.1.73 - - [30/May/2016:11:34:33 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:34:33 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:34:40 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:34:40 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4168
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:34:40 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:34:40 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:34:55 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6637
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:34:55 CST] "GET /javascript/editor/langs/markdown.js?_=1464579295476 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464579295476
+192.168.1.73 - - [30/May/2016:11:34:55 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:34:55 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:04 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:35:04 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4182
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:35:04 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:04 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:16 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6636
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:35:16 CST] "GET /javascript/editor/langs/markdown.js?_=1464579316536 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464579316536
+192.168.1.73 - - [30/May/2016:11:35:16 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:16 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:28 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:35:28 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4176
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:35:29 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:29 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:38 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6630
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:35:38 CST] "GET /javascript/editor/langs/markdown.js?_=1464579338946 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464579338946
+192.168.1.73 - - [30/May/2016:11:35:39 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:39 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:48 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:35:48 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4168
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:35:49 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:35:49 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:36:18 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6621
+http://192.168.1.73:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:36:18 CST] "GET /javascript/editor/langs/markdown.js?_=1464579378299 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464579378299
+192.168.1.73 - - [30/May/2016:11:36:18 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:36:18 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:37:05 CST] "POST /preview HTTP/1.1" 200 3782
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:37:05 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:37:05 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:37:23 CST] "POST /preview HTTP/1.1" 200 3783
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:37:24 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:37:24 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:37:58 CST] "POST /preview HTTP/1.1" 200 3785
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:37:59 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:37:59 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:39:40 CST] "POST /preview HTTP/1.1" 200 3786
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:39:41 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:39:41 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:42:16 CST] "POST /preview HTTP/1.1" 200 3782
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:42:17 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:42:17 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:42:42 CST] "POST /preview HTTP/1.1" 200 3785
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /preview
+192.168.1.73 - - [30/May/2016:11:42:43 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/preview -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:42:43 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:11:43:02 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:43:03 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4233
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:11:43:03 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:11:43:03 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4233
+- -> /Simple-Http-Server
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /css/gollum.css HTTP/1.1" 200 14856
+http://192.168.1.73:4567/Simple-Http-Server -> /css/gollum.css
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /css/editor.css HTTP/1.1" 200 17485
+http://192.168.1.73:4567/Simple-Http-Server -> /css/editor.css
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /css/dialog.css HTTP/1.1" 200 5267
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /css/template.css HTTP/1.1" 200 12977
+http://192.168.1.73:4567/Simple-Http-Server -> /css/dialog.css
+http://192.168.1.73:4567/Simple-Http-Server -> /css/template.css
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /css/print.css HTTP/1.1" 200 183
+http://192.168.1.73:4567/Simple-Http-Server -> /css/print.css
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /javascript/jquery-1.7.2.min.js HTTP/1.1" 200 94840
+http://192.168.1.73:4567/Simple-Http-Server -> /javascript/jquery-1.7.2.min.js
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /javascript/mousetrap.min.js HTTP/1.1" 200 3196
+http://192.168.1.73:4567/Simple-Http-Server -> /javascript/mousetrap.min.js
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /javascript/gollum.dialog.js HTTP/1.1" 200 9599
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /javascript/gollum.js HTTP/1.1" 200 10502
+http://192.168.1.73:4567/Simple-Http-Server -> /javascript/gollum.dialog.js
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /javascript/gollum.placeholder.js HTTP/1.1" 200 1203
+http://192.168.1.73:4567/Simple-Http-Server -> /javascript/gollum.placeholder.js
+http://192.168.1.73:4567/Simple-Http-Server -> /javascript/gollum.js
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /javascript/editor/gollum.editor.js HTTP/1.1" 200 36822
+http://192.168.1.73:4567/Simple-Http-Server -> /javascript/editor/gollum.editor.js
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /images/icon-sprite.png HTTP/1.1" 200 9542
+http://192.168.1.73:4567/css/gollum.css -> /images/icon-sprite.png
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /favicon.ico HTTP/1.1" 302 0
+- -> /favicon.ico
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+- -> /create/favicon.ico
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /favicon.ico HTTP/1.1" 302 0
+- -> /favicon.ico
+192.168.1.42 - - [30/May/2016:11:43:33 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+- -> /create/favicon.ico
+localhost - - [30/May/2016:12:16:53 CST] "GET / HTTP/1.1" 302 0
+- -> /
+localhost - - [30/May/2016:12:16:53 CST] "GET /Home HTTP/1.1" 200 3607
+- -> /Home
+localhost - - [30/May/2016:12:16:54 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/Home -> /favicon.ico
+localhost - - [30/May/2016:12:16:54 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/Home -> /create/favicon.ico
+localhost - - [30/May/2016:12:16:57 CST] "GET /pages HTTP/1.1" 200 2507
+http://localhost:4567/Home -> /pages
+localhost - - [30/May/2016:12:16:57 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/pages -> /favicon.ico
+localhost - - [30/May/2016:12:16:57 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/pages -> /create/favicon.ico
+localhost - - [30/May/2016:12:16:58 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4233
+http://localhost:4567/pages -> /Simple-Http-Server
+localhost - - [30/May/2016:12:16:59 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/Simple-Http-Server -> /favicon.ico
+localhost - - [30/May/2016:12:16:59 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/Simple-Http-Server -> /create/favicon.ico
+localhost - - [30/May/2016:12:17:04 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6685
+http://localhost:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+localhost - - [30/May/2016:12:17:04 CST] "GET /javascript/editor/langs/markdown.js?_=1464581824568 HTTP/1.1" 200 11837
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464581824568
+localhost - - [30/May/2016:12:17:04 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/edit/Simple-Http-Server -> /favicon.ico
+localhost - - [30/May/2016:12:17:04 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/edit/Simple-Http-Server -> /create/favicon.ico
+localhost - - [30/May/2016:12:17:26 CST] "POST /preview HTTP/1.1" 200 3810
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:17:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:17:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:17:35 CST] "POST /preview HTTP/1.1" 200 3810
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:17:36 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:17:36 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:18:08 CST] "POST /preview HTTP/1.1" 200 3804
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:18:08 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:18:08 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:18:19 CST] "POST /preview HTTP/1.1" 200 3805
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:18:19 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:18:19 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:18:34 CST] "POST /preview HTTP/1.1" 200 3804
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:18:34 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:18:34 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:18:47 CST] "POST /preview HTTP/1.1" 200 3809
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:18:47 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:18:47 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:19:26 CST] "POST /preview HTTP/1.1" 200 3806
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:19:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:19:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:19:42 CST] "POST /preview HTTP/1.1" 200 3805
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:19:42 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:19:42 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:20:49 CST] "POST /preview HTTP/1.1" 200 3805
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:20:50 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:20:50 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:21:00 CST] "POST /preview HTTP/1.1" 200 3809
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:21:01 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:21:01 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:21:11 CST] "POST /preview HTTP/1.1" 200 3813
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:21:11 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:21:11 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:21:21 CST] "POST /preview HTTP/1.1" 200 3807
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:21:21 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:21:22 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:21:56 CST] "POST /preview HTTP/1.1" 200 3836
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:21:56 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:21:56 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:22:46 CST] "POST /preview HTTP/1.1" 200 3884
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:22:46 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:22:46 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:23:10 CST] "POST /preview HTTP/1.1" 200 3884
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:23:10 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:23:10 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:23:22 CST] "POST /preview HTTP/1.1" 200 3883
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:23:22 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:23:22 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:23:59 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://localhost:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+localhost - - [30/May/2016:12:23:59 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4530
+http://localhost:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+localhost - - [30/May/2016:12:23:59 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/Simple-Http-Server -> /favicon.ico
+localhost - - [30/May/2016:12:23:59 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/Simple-Http-Server -> /create/favicon.ico
+localhost - - [30/May/2016:12:24:03 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6782
+http://localhost:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+localhost - - [30/May/2016:12:24:03 CST] "GET /javascript/editor/langs/markdown.js?_=1464582243925 HTTP/1.1" 200 11837
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464582243925
+localhost - - [30/May/2016:12:24:04 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/edit/Simple-Http-Server -> /favicon.ico
+localhost - - [30/May/2016:12:24:04 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/edit/Simple-Http-Server -> /create/favicon.ico
+localhost - - [30/May/2016:12:24:20 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://localhost:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+localhost - - [30/May/2016:12:24:20 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4331
+http://localhost:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+localhost - - [30/May/2016:12:24:20 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/Simple-Http-Server -> /favicon.ico
+localhost - - [30/May/2016:12:24:20 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/Simple-Http-Server -> /create/favicon.ico
+localhost - - [30/May/2016:12:24:43 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6777
+http://localhost:4567/Simple-Http-Server -> /edit/Simple-Http-Server
+localhost - - [30/May/2016:12:24:43 CST] "GET /javascript/editor/langs/markdown.js?_=1464582283381 HTTP/1.1" 200 11837
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464582283381
+localhost - - [30/May/2016:12:24:43 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/edit/Simple-Http-Server -> /favicon.ico
+localhost - - [30/May/2016:12:24:43 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/edit/Simple-Http-Server -> /create/favicon.ico
+localhost - - [30/May/2016:12:26:46 CST] "POST /preview HTTP/1.1" 200 3883
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:26:46 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:26:46 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:26:53 CST] "POST /preview HTTP/1.1" 200 3762
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:26:54 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:26:54 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:27:06 CST] "POST /preview HTTP/1.1" 200 3883
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:27:06 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:27:06 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:27:25 CST] "POST /preview HTTP/1.1" 200 3886
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:27:25 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:27:25 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:27:42 CST] "POST /preview HTTP/1.1" 200 3955
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:27:43 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:27:43 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:28:18 CST] "POST /preview HTTP/1.1" 200 3850
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:28:19 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:28:19 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:28:27 CST] "POST /preview HTTP/1.1" 200 3967
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:28:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:28:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:28:40 CST] "POST /preview HTTP/1.1" 200 3980
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:28:40 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:28:40 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:28:53 CST] "POST /preview HTTP/1.1" 200 3988
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:28:53 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:28:53 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:29:07 CST] "POST /preview HTTP/1.1" 200 3978
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:29:07 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:29:07 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:29:17 CST] "POST /preview HTTP/1.1" 200 3978
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:29:18 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:29:18 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:29:26 CST] "POST /preview HTTP/1.1" 200 3968
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:29:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:29:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:29:35 CST] "POST /preview HTTP/1.1" 200 3955
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:29:35 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:29:35 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:29:48 CST] "GET /javascript/editor/langs/creole.js?_=1464582588518 HTTP/1.1" 200 4058
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/creole.js?_=1464582588518
+localhost - - [30/May/2016:12:29:51 CST] "POST /preview HTTP/1.1" 200 3152
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:29:51 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:29:51 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:30:00 CST] "GET /javascript/editor/langs/mediawiki.js?_=1464582600389 HTTP/1.1" 302 0
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/mediawiki.js?_=1464582600389
+localhost - - [30/May/2016:12:30:00 CST] "GET /create/javascript/editor/langs/mediawiki.js HTTP/1.1" 200 6682
+http://localhost:4567/edit/Simple-Http-Server -> /create/javascript/editor/langs/mediawiki.js
+localhost - - [30/May/2016:12:30:02 CST] "POST /preview HTTP/1.1" 200 3158
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:30:02 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:30:02 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:30:08 CST] "GET /javascript/editor/langs/pod.js?_=1464582608843 HTTP/1.1" 200 5965
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/pod.js?_=1464582608843
+localhost - - [30/May/2016:12:30:10 CST] "POST /preview HTTP/1.1" 200 3179
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:30:10 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:30:10 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:30:16 CST] "GET /javascript/editor/langs/rest.js?_=1464582616706 HTTP/1.1" 302 0
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/rest.js?_=1464582616706
+localhost - - [30/May/2016:12:30:16 CST] "GET /create/javascript/editor/langs/rest.js HTTP/1.1" 200 6667
+http://localhost:4567/edit/Simple-Http-Server -> /create/javascript/editor/langs/rest.js
+localhost - - [30/May/2016:12:30:18 CST] "POST /preview HTTP/1.1" 200 3154
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:30:18 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:30:18 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:32:08 CST] "GET /javascript/editor/langs/textile.js?_=1464582728112 HTTP/1.1" 200 8876
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/textile.js?_=1464582728112
+localhost - - [30/May/2016:12:32:09 CST] "POST /preview HTTP/1.1" 200 3155
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:32:10 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:32:10 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:32:20 CST] "POST /preview HTTP/1.1" 200 3955
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:32:21 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:32:21 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
+localhost - - [30/May/2016:12:36:00 CST] "GET /javascript/editor/langs/rdoc.js?_=1464582960383 HTTP/1.1" 200 2741
+http://localhost:4567/edit/Simple-Http-Server -> /javascript/editor/langs/rdoc.js?_=1464582960383
+localhost - - [30/May/2016:12:36:02 CST] "POST /preview HTTP/1.1" 200 3954
+http://localhost:4567/edit/Simple-Http-Server -> /preview
+localhost - - [30/May/2016:12:36:03 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://localhost:4567/preview -> /favicon.ico
+localhost - - [30/May/2016:12:36:03 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://localhost:4567/preview -> /create/favicon.ico
