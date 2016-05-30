@@ -991,3 +991,81 @@ localhost - - [30/May/2016:12:36:03 CST] "GET /favicon.ico HTTP/1.1" 302 0
 http://localhost:4567/preview -> /favicon.ico
 localhost - - [30/May/2016:12:36:03 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
 http://localhost:4567/preview -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:12:50:15 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6777
+- -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:12:50:15 CST] "GET /javascript/editor/langs/markdown.js?_=1464583815665 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464583815665
+192.168.1.73 - - [30/May/2016:12:50:15 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:12:50:15 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /create/favicon.ico
+192.168.1.42 - - [30/May/2016:12:50:51 CST] "GET /edit/Simple-Http-Server HTTP/1.1" 200 6777
+- -> /edit/Simple-Http-Server
+192.168.1.42 - - [30/May/2016:12:50:52 CST] "GET /css/gollum.css HTTP/1.1" 200 14856
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /css/gollum.css
+192.168.1.42 - - [30/May/2016:12:50:52 CST] "GET /css/template.css HTTP/1.1" 200 12977
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /css/template.css
+192.168.1.42 - - [30/May/2016:12:50:52 CST] "GET /css/dialog.css HTTP/1.1" 200 5267
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /css/dialog.css
+192.168.1.42 - - [30/May/2016:12:50:52 CST] "GET /css/editor.css HTTP/1.1" 200 17485
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /css/editor.css
+192.168.1.42 - - [30/May/2016:12:50:54 CST] "GET /javascript/jquery-1.7.2.min.js HTTP/1.1" 200 94840
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/jquery-1.7.2.min.js
+192.168.1.42 - - [30/May/2016:12:50:54 CST] "GET /javascript/mousetrap.min.js HTTP/1.1" 200 3196
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/mousetrap.min.js
+192.168.1.42 - - [30/May/2016:12:50:54 CST] "GET /javascript/gollum.js HTTP/1.1" 200 10502
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/gollum.js
+192.168.1.42 - - [30/May/2016:12:50:55 CST] "GET /javascript/gollum.dialog.js HTTP/1.1" 200 9599
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/gollum.dialog.js
+192.168.1.42 - - [30/May/2016:12:50:55 CST] "GET /javascript/gollum.placeholder.js HTTP/1.1" 200 1203
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/gollum.placeholder.js
+192.168.1.42 - - [30/May/2016:12:50:55 CST] "GET /javascript/editor/gollum.editor.js HTTP/1.1" 200 36822
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/gollum.editor.js
+192.168.1.42 - - [30/May/2016:12:50:55 CST] "GET /css/print.css HTTP/1.1" 200 183
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /css/print.css
+192.168.1.42 - - [30/May/2016:12:50:55 CST] "GET /javascript/editor/langs/markdown.js?_=1464583853058 HTTP/1.1" 200 11837
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /javascript/editor/langs/markdown.js?_=1464583853058
+192.168.1.42 - - [30/May/2016:12:50:55 CST] "GET /images/icon-sprite.png HTTP/1.1" 200 9542
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /images/icon-sprite.png
+192.168.1.42 - - [30/May/2016:12:51:25 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4331
+- -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:12:51:57 CST] "POST /edit/Simple-Http-Server HTTP/1.1" 303 0
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /edit/Simple-Http-Server
+192.168.1.73 - - [30/May/2016:12:51:57 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4374
+http://192.168.1.73:4567/edit/Simple-Http-Server -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:12:51:58 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /favicon.ico
+192.168.1.73 - - [30/May/2016:12:51:58 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Simple-Http-Server -> /create/favicon.ico
+192.168.1.42 - - [30/May/2016:12:52:08 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4374
+- -> /Simple-Http-Server
+192.168.1.42 - - [30/May/2016:12:52:17 CST] "GET /pages HTTP/1.1" 200 2568
+http://192.168.1.73:4567/Simple-Http-Server -> /pages
+192.168.1.42 - - [30/May/2016:12:52:17 CST] "GET /images/fileview/folder-horizontal.png HTTP/1.1" 200 271
+http://192.168.1.73:4567/pages -> /images/fileview/folder-horizontal.png
+192.168.1.42 - - [30/May/2016:12:52:17 CST] "GET /images/fileview/document.png HTTP/1.1" 200 177
+http://192.168.1.73:4567/pages -> /images/fileview/document.png
+192.168.1.42 - - [30/May/2016:12:52:20 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4374
+http://192.168.1.73:4567/pages -> /Simple-Http-Server
+192.168.1.42 - - [30/May/2016:12:52:22 CST] "GET / HTTP/1.1" 302 0
+http://192.168.1.73:4567/Simple-Http-Server -> /
+192.168.1.42 - - [30/May/2016:12:52:22 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/Simple-Http-Server -> /Home
+192.168.1.42 - - [30/May/2016:12:52:26 CST] "GET /history/Home HTTP/1.1" 200 7083
+http://192.168.1.73:4567/Home -> /history/Home
+192.168.1.42 - - [30/May/2016:12:52:32 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/history/Home -> /Home
+192.168.1.42 - - [30/May/2016:12:52:41 CST] "GET /search?q=h HTTP/1.1" 200 2584
+http://192.168.1.73:4567/Home -> /search?q=h
+192.168.1.42 - - [30/May/2016:12:52:43 CST] "GET /log/gollum.log HTTP/1.1" 200 80835
+http://192.168.1.73:4567/search?q=h -> /log/gollum.log
+192.168.1.42 - - [30/May/2016:12:52:52 CST] "GET /Simple-Http-Server HTTP/1.1" 200 4374
+- -> /Simple-Http-Server
+192.168.1.73 - - [30/May/2016:12:52:55 CST] "GET /pages HTTP/1.1" 200 2568
+http://192.168.1.73:4567/Simple-Http-Server -> /pages
+192.168.1.73 - - [30/May/2016:12:52:56 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:12:52:56 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.42 - - [30/May/2016:12:53:00 CST] "GET /pages HTTP/1.1" 200 2568
+http://192.168.1.73:4567/Simple-Http-Server -> /pages
