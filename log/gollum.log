@@ -1069,3 +1069,35 @@ http://192.168.1.73:4567/pages -> /favicon.ico
 http://192.168.1.73:4567/pages -> /create/favicon.ico
 192.168.1.42 - - [30/May/2016:12:53:00 CST] "GET /pages HTTP/1.1" 200 2568
 http://192.168.1.73:4567/Simple-Http-Server -> /pages
+192.168.1.73 - - [30/May/2016:12:54:30 CST] "GET /pages HTTP/1.1" 200 2568
+- -> /pages
+192.168.1.73 - - [30/May/2016:12:54:31 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:31 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:33 CST] "GET / HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /
+192.168.1.73 - - [30/May/2016:12:54:33 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/pages -> /Home
+192.168.1.73 - - [30/May/2016:12:54:33 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:33 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:37 CST] "GET /pages HTTP/1.1" 200 2568
+http://192.168.1.73:4567/Home -> /pages
+192.168.1.73 - - [30/May/2016:12:54:38 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:38 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:41 CST] "GET /search?q=log HTTP/1.1" 200 2440
+http://192.168.1.73:4567/pages -> /search?q=log
+192.168.1.73 - - [30/May/2016:12:54:41 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/search?q=log -> /favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:41 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/search?q=log -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:46 CST] "GET /log/gollum.log HTTP/1.1" 200 83242
+http://192.168.1.73:4567/search?q=log -> /log/gollum.log
+192.168.1.73 - - [30/May/2016:12:54:47 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/log/gollum.log -> /favicon.ico
+192.168.1.73 - - [30/May/2016:12:54:47 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/log/gollum.log -> /create/favicon.ico
