@@ -1,7 +1,7 @@
 **环境安装**
 
 
-  1. 安装python 环境（mac和linux系统自带不需要安装,[python2x windows 点击下载](https://www.python.org/downloads/windows/)
+  1. 安装python 环境 _<font color='red'>Note:mac和linux系统自带不需要安装,[python2x windows 点击下载](https://www.python.org/downloads/windows/)</font>_
 
   2. 命令行执行：python -m SimpleHTTPServer \<port\> 端口默认8000
      例如：python -m SimpleHTTPServer 8010
@@ -15,6 +15,6 @@
 
   3. python -m SimpleHTTPServer \<port\>
 
-  4. 访问接口：http://localhost:\<port\>/JieKouWenJian.json <font color='red'>&#160;&#160;Note:文件一定使用json结尾，否则会提示下载或者无法正确解析</font>
+  4. 访问接口：http://localhost:\<port\>/JieKouWenJian.json _<font color='red'>&#160;&#160;Note:文件一定使用json结尾，否则会提示下载或者无法正确解析</font>_
      例如：http://localhost:8000/login.html?username='hello'&passwd='world'
 ```
