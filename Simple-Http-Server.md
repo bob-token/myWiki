@@ -2,8 +2,9 @@
 ```sh
 
   1. 安装python 环境（mac和linux系统自带不需要安装,[[python2x windows 点击下载](https://www.python.org/downloads/windows/)](https://www.python.org/downloads/windows/))
-<p><a href="http://example.net/">This link</a> has no
-title attribute.</p>
+
+<p><a href="http://example.net/">This link</a> has notitle attribute.</p>
+
   2. 命令行执行：python -m SimpleHTTPServer \<port\> 端口默认8000
      例如：python -m SimpleHTTPServer 8010
 
