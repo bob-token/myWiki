@@ -8,8 +8,8 @@
 
 **模拟接口**
 ***
-
-1. 2. cd path/of/接口目录
-2. 3. python -m SimpleHTTPServer \<port\>
-3. 访问接口：http://localhost:\<port\>/JieKouWenJian.html
+1. 创建接口文件文件夹
+2. cd path/of/接口目录
+3. python -m SimpleHTTPServer \<port\>
+4. 访问接口：http://localhost:\<port\>/JieKouWenJian.html
 * 例如：http://localhost:8000/login.html?username='hello'&passwd='world'
