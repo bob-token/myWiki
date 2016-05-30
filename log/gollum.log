@@ -1101,3 +1101,54 @@ http://192.168.1.73:4567/search?q=log -> /log/gollum.log
 http://192.168.1.73:4567/log/gollum.log -> /favicon.ico
 192.168.1.73 - - [30/May/2016:12:54:47 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
 http://192.168.1.73:4567/log/gollum.log -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:03 CST] "GET / HTTP/1.1" 302 0
+- -> /
+192.168.1.73 - - [30/May/2016:13:19:03 CST] "GET /Home HTTP/1.1" 200 3607
+- -> /Home
+192.168.1.73 - - [30/May/2016:13:19:03 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:03 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:05 CST] "GET /pages HTTP/1.1" 200 2619
+http://192.168.1.73:4567/Home -> /pages
+192.168.1.73 - - [30/May/2016:13:19:05 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:05 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:08 CST] "GET /README HTTP/1.1" 200 3530
+http://192.168.1.73:4567/pages -> /README
+192.168.1.73 - - [30/May/2016:13:19:08 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/README -> /favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:08 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/README -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:08 CST] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+http://192.168.1.73:4567/css/template.css -> /fonts/fontawesome-webfont.woff?v=4.0.3
+192.168.1.73 - - [30/May/2016:13:19:11 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/README -> /favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:11 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/README -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:13 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/README -> /favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:13 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/README -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:15 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:13:19:15 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:13:20:21 CST] "GET /pages HTTP/1.1" 200 2619
+- -> /pages
+192.168.1.73 - - [30/May/2016:13:20:21 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /favicon.ico
+192.168.1.73 - - [30/May/2016:13:20:21 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/pages -> /create/favicon.ico
+192.168.1.73 - - [30/May/2016:13:20:26 CST] "GET / HTTP/1.1" 302 0
+http://192.168.1.73:4567/pages -> /
+192.168.1.73 - - [30/May/2016:13:20:26 CST] "GET /Home HTTP/1.1" 200 3607
+http://192.168.1.73:4567/pages -> /Home
+192.168.1.73 - - [30/May/2016:13:20:27 CST] "GET /favicon.ico HTTP/1.1" 302 0
+http://192.168.1.73:4567/Home -> /favicon.ico
+192.168.1.73 - - [30/May/2016:13:20:27 CST] "GET /create/favicon.ico HTTP/1.1" 200 6633
+http://192.168.1.73:4567/Home -> /create/favicon.ico
+== Sinatra has ended his set (crowd applauds)
+[2016-05-30 13:34:40] INFO  going to shutdown ...
+[2016-05-30 13:34:40] INFO  WEBrick::HTTPServer#start done.
