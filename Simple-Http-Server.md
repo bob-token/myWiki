@@ -11,5 +11,5 @@
   2. cd path/of/接口目录
   3. python -m SimpleHTTPServer \<port\>
   4. 访问接口：http://localhost:\<port\>/JieKouWenJian.json <font color='red'>&#160;&#160;Note:文件一定使用json结尾，否则会提示下载或者无法正确解析</font>
-  例如：http://localhost:8000/login.html?username='hello'&passwd='world'
+     例如：http://localhost:8000/login.html?username='hello'&passwd='world'
 ```
