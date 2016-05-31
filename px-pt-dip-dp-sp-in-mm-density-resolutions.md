@@ -1,4 +1,3 @@
-
 ##名词解释:
 px：(pixels)（像素）：屏幕上的点，与密度相关。密度大了，单位面积上的px会比较多。表示屏幕实际的象素。例如，320*480的屏幕在横向有320个象素，在纵向有480个象素。
 
@@ -21,6 +20,35 @@ HVGA屏density=160<br>
 QVGA屏density=120<br>
 WVGA屏density=240<br>
 WQVGA屏density=120<br>
+
+**手机常见分辨率:**
+```java
+4:3
+VGA     640*480 (Video Graphics Array)
+QVGA  320*240 (Quarter VGA)
+HVGA  480*320 (Half-size VGA)
+SVGA  800*600 (Super VGA)
+5:3
+WVGA  800*480 (Wide VGA)
+16:9
+FWVGA 854*480 (Full Wide VGA)
+HD        1920*1080 High Definition
+QHD     960*540
+720p    1280*720  标清
+1080p  1920*1080 高清
+手机:
+iphone 4/4s    960*640 (3:2)
+iphone5         1136*640
+小米1             854*480(FWVGA)
+小米2             1280*720
+分辨率对应DPI
+"HVGA    mdpi"
+"WVGA   hdpi "
+"FWVGA hdpi "
+"QHD      hdpi "
+"720P     xhdpi"
+"1080P   xxhdpi "
+```
 
 **换算公式：**
 pixels = dips * (density / 160)
