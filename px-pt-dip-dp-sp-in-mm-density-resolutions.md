@@ -25,7 +25,7 @@ WQVGA屏density=120<br>
 pixels = dips * (density / 160)
 ***density一般为3个常用固定值240/160/120***
 
-**获取屏幕尺寸**
+**获取屏幕尺寸 4.7" WXGA Resolution:720 x 1280  density:xhdpi Ratio:long Size:normal**
 ```java
         DisplayMetrics metric = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metric);
