@@ -11,6 +11,8 @@ mm：表示毫米，是屏幕的物理尺寸。
 
 pt：表示一个点，是屏幕的一个物理长度，大小为1英寸的1/72。
 
+PPI： Pixels per inch，每英寸上的像素数,即 “像素密度”
+
 Density: 指每平方英寸中的像素数。
 **Density=Resolution/Screen size**<br>
 
