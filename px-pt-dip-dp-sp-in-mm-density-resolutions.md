@@ -25,7 +25,7 @@ WQVGA屏density=120<br>
 pixels = dips * (density / 160)
 ***density一般为3个常用固定值240/160/120***
 
-
+**获取屏幕尺寸**
 ```java
         DisplayMetrics metric = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metric);
