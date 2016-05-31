@@ -1,11 +1,9 @@
 **环境安装**
 
-
   1. 安装python 环境 _Note:mac和linux系统自带不需要安装,[python2x windows 点击下载](https://www.python.org/downloads/windows/)_
 
   2. 命令行执行：python -m SimpleHTTPServer \<port\> 端口默认8000
      例如：python -m SimpleHTTPServer 8010
-
 
 **模拟接口**
 
