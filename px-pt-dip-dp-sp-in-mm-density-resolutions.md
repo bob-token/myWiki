@@ -133,10 +133,10 @@ device independent pixels(设备独立像素). 不同设备有不同的显示效
 
 **经新xcode6模拟器验证（分辨率为pt，像素为真实pixel）：**
 
-iPhone4分辨率320x480，像素640x960，@2x<br>
-iPhone5分辨率320x568，像素640x1136，@2x<br>
-iPhone6分辨率375x667，像素750x1334，@2x<br>
-iPhone6 Plus分辨率414x736，像素1242x2208，@3x，
+iPhone4 pt(point):320x480，像素640x960，@2x<br>
+iPhone5 pt(point):320x568，像素640x1136，@2x<br>
+iPhone6 pt(point):375x667，像素750x1334，@2x<br>
+iPhone6 Plus pt(point):414x736，像素1242x2208，@3x，
 
 ***iPhone6 Plus***
 ```objective-c
