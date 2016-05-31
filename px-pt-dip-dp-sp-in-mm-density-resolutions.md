@@ -25,6 +25,17 @@ WQVGA屏density=120<br>
 pixels = dips * (density / 160)
 ***density一般为3个常用固定值240/160/120***
 
+
+```java
+        DisplayMetrics metric = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metric);
+        int width = metric.widthPixels;  // 屏幕宽度（像素）
+        int height = metric.heightPixels;  // 屏幕高度（像素）
+        float density = metric.density;  // 屏幕密度（0.75 / 1.0 / 1.5）
+        int densityDpi = metric.densityDpi;  // 屏幕密度DPI（120 / 160 / 240）
+        //获取的结果
+        DisplayMetrics{density=2.0, width=720, height=1280, scaledDensity=2.0, xdpi=320.0, ydpi=320.0}
+```
 ***android dp/px换算代码***
 ```java
 import android.util.DisplayMetrics;
