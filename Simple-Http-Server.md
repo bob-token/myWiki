@@ -15,4 +15,3 @@
 
   4. 访问接口：http://localhost:\<port\>/JieKouWenJian.json _<font color='red'>&#160;&#160;Note:文件一定使用json结尾，否则会提示下载或者无法正确解析</font>_
      例如：http://localhost:8000/login.json?username='hello'&passwd='world'
-```
