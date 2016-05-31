@@ -22,7 +22,7 @@ WVGA屏density=240<br>
 WQVGA屏density=120<br>
 
 **换算公式：**
-px = (density/160)dp
+pixels = dips * (density / 160)
 ***density一般为3个常用固定值240/160/120***
 
 ***android dp/px换算代码***
