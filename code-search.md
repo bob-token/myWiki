@@ -7,6 +7,13 @@
 
 ##[cocoachina](http://code.cocoachina.com/)
 
+##[cocoapods](https://cocoapods.org)
+```
+CocoaPods is a dependency manager only in the sense that Apple is a cell phone manufacturer – it’s just one of their many projects.
+```
+-- Ash Furrow - Building Online Communities
+
+
 ##[grepcode](http://grepcode.com/)
 GrepCode can be used to find:
 Java projects
