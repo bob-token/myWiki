@@ -12,4 +12,4 @@
 
 >周报模板
 
-[软件开发部工作周报_时间(姓名).xls](uploads/iphone_resolutions.jpg)
+[软件开发部工作周报_时间(姓名).xls](ooyue-software-dev-department/iphone_resolutions.jpg)
