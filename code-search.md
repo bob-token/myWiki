@@ -1,6 +1,12 @@
 ##[github.com](https://github.com/)
 不需要多说
 
+##[code4app](http://code4app.com/search.php?mod=forum)
+ code4app是一个移动平台的代码库。我们目前只推出ios平台，会慢慢加入其他移动平台，如Android，WP。
+      code4app收集了iOS平台几百个代码，并且配有效果图和演示视频。这些代码都经过我们的严格测试，你可以搜索并下载你需要的任意代码，当然，你也可以浏览这些效果图或者视频，来找找你的UI设计灵感。
+
+##[cocoachina](http://code.cocoachina.com/)
+
 ##[grepcode](http://grepcode.com/)
 GrepCode can be used to find:
 Java projects
