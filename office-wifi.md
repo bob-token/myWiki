@@ -1,2 +1,3 @@
-ssid:booyue-pc
-password:booyue123pc123
+***ssid:***booyue-pc
+
+***password:***booyue123pc123
