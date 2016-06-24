@@ -41,32 +41,7 @@
 
 应用分类：
 
- <select id="android_app_category" name="app[category]" class='b_apps_in required' mod="normal">
-                  <option value="">请选择</option>
-                  <option value="日常信息">日常信息</option>
-<option value="社交沟通">社交沟通</option>
-<option value="休闲娱乐">休闲娱乐</option>
-<option value="阅读资讯">阅读资讯</option>
-<option value="图像音乐视频">图像音乐视频</option>
-<option value="生活助手">生活助手</option>
-<option value="系统工具主题">系统工具主题</option>
-<option value="通话通信">通话通信</option>
-<option value="电子商务">电子商务</option>
-<option value="金融理财">金融理财</option>
-<option value="教育学习">教育学习</option>
-<option value="旅游出行">旅游出行</option>
-<option value="其他">其他</option>
-                  <optgroup label="---------游戏---------">
-                    <option value="动作格斗">动作格斗</option>
-<option value="益智游戏">益智游戏</option>
-<option value="棋牌卡片">棋牌卡片</option>
-<option value="休闲趣味">休闲趣味</option>
-<option value="飞行/射击">飞行/射击</option>
-<option value="角色扮演/策略">角色扮演/策略</option>
-<option value="体育竞技">体育竞技</option>
-<option value="网络游戏">网络游戏</option>
-                  </optgroup>
-                </select>
+日常信息|社交沟通|休闲娱乐|阅读资讯|图像音乐视频|生活助手|系统工具主题|通话通信|电子商务|金融理财|教育学习|旅游出行|其他|游戏
 
 
 ***微博开发平台要求：***
