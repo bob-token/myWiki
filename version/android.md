@@ -1,4 +1,4 @@
-#android版本定义说明
+#android版本号定义说明
 
 >在应用程序的manifest文件中定义应用程序版本信息.
 
