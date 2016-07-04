@@ -22,6 +22,7 @@ android:versionName --- 字符串值,向用户显示的应用程序代码的发�
 在例子中, 注意 android:versionCode 值显示当前的.apk包含了应用程序代码的第二个发布, android:versionName字符串表现的是一个小的后继发布版本. 
 
 Android 提供了一个API以让应用程序向系统查询版本信息. 使用 PackageManager 的 getPackageInfo(java.lang.String, int)方法.例如：
+```
 PackageManager manager = this.getPackageManager();
 try {
         PackageInfo info = manager.getPackageInfo(this.getPackageName(), 0);
@@ -29,7 +30,7 @@ try {
 } catch (NameNotFoundException e) {
         e.printStackTrace();
 }
-
+```
 指定应用程序的系统API需求
 如果应用需要指定一个Android平台的最小版本号, 或者是设计为仅支持一个特定的Android平台版本范围, 可以在应用程序的manifest文件中以API Level标识符形式指定. 这么做确保应用可以仅被安装在运行着兼容版本的Android设备中.
 要指定API Level, 在应用程序的manifest文件中添加一个<uses-sdk>元素, 然后指定一个或多个以下这些属性:
