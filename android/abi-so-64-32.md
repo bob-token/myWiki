@@ -16,7 +16,7 @@ Android系统目前支持以下七种不同的CPU架构：ARMv5，ARMv7 (从2010
 
 Android应用支持的ABI取决于APK中位于lib/ABI目录中的.so文件，其中ABI可能是上面说过的七种ABI中的一种。
 
-
+![](http://upload-images.jianshu.io/upload_images/191937-caeb25d4ab0df30d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 [Native Libs Monitor](https://play.google.com/store/apps/details?id=com.xh.nativelibsmonitor.app)这个应用可以帮助我们理解手机上安装的APK用到了哪些.so文件，以及.so文件来源于哪些函数库或者框架。
 
 >当然，我们也可以自己对app反编译来获取这些信息，不过相对麻烦一些。
