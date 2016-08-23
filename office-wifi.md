@@ -1,7 +1,7 @@
-***ssid:***booyue-pc
+> **ssid:**booyue-pc
 
-***password:***booyue123pc123
+**password:**booyue123pc123
 
-***ssid:***booyue-ruanjianbu
+>**ssid:**booyue-ruanjianbu
 
-***password:***20160822
+**password:**20160822
