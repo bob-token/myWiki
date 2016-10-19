@@ -1,8 +1,11 @@
 #seaweed操作
 
 
-Write File
+**上传**
 
+***react api***
+
+```
 To upload a file: first, send a HTTP POST, PUT, or GET request to /dir/assign to get an fid and a volume server url:
 
 > curl -X POST http://localhost:9333/dir/assign
@@ -17,12 +20,18 @@ For deletion, send an HTTP DELETE request to the same url + '/' + fid URL:
 
 > curl -X DELETE http://127.0.0.1:8080/3,01637037d6
 
+```
+
+***命令行***
+
+    weed  upload -replication=000 -collection=abc file_server_storage/Image/2013/12/20/16/52b3fc8742b26.png
+
+
+**上传文件夹**
 
 **删除collection**
 
 curl http://192.168.1.148:9333/col/delete?collection=java-loadtest
-
-**上传文件夹**
 
 ./weed upload -dir="/some/big/folder" -include=*.txt
 
