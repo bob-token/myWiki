@@ -3,7 +3,7 @@
 
 **上传**
 
-***react api***
+***REACTful api***
 
 ```
 To upload a file: first, send a HTTP POST, PUT, or GET request to /dir/assign to get an fid and a volume server url:
