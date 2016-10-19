@@ -25,3 +25,8 @@ curl http://192.168.1.148:9333/col/delete?collection=java-loadtest
 **上传文件夹**
 
 ./weed upload -dir="/some/big/folder" -include=*.txt
+
+**Create а specific volume on a specific volume server**
+
+curl "http://localhost:8080/admin/assign_volume?replication=000&volume=3"
+This generates volume 3 on this volume server.
