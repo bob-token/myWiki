@@ -1,5 +1,10 @@
 #seaweed操作
 
+编译：
+go get github.com/chrislusf/seaweedfs/weed
+
+
+
 
 **上传**
 
