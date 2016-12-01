@@ -33,11 +33,14 @@ For deletion, send an HTTP DELETE request to the same url + '/' + fid URL:
     weed  upload -replication=000 -collection=abc file_server_storage/Image/2013/12/20/16/52b3fc8742b26.png
 
 
-**上传文件夹**
 
 **删除collection**
 
 curl http://192.168.1.148:9333/col/delete?collection=java-loadtest
+
+
+**上传文件夹**
+
 
 ./weed upload -dir="/some/big/folder" -include=*.txt
 
