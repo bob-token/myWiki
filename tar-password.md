@@ -1,9 +1,9 @@
+#在Linux下打包tar文件时添加密码的方法
+
 在当前目录下有一个pma目录的文件夹:
 
 1、使用tar对文件压缩加密：
 
-
-#在Linux下打包tar文件时添加密码的方法
 
 代码如下:
 # tar -zcvf - pma|openssl des3 -salt -k password | dd of=pma.des3
