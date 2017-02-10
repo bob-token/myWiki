@@ -1,5 +1,8 @@
 #seaweed操作
 
+使用weed-fs时，别忘了将open files no limit调大，否则可能会导致volume server crash。
+
+
 **编译：**
 
 go get github.com/chrislusf/seaweedfs/weed
